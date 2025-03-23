@@ -1,0 +1,41 @@
+// this is approximately what a trading state looks like (parsed from logs)
+{ 
+  "listings": 
+  {
+    "KELP": 
+    {
+      "denomination": 1, 
+      "product": "KELP", 
+      "symbol": "KELP"
+    }, 
+    "RAINFOREST_RESIN": 
+    {
+        "denomination": 1, 
+      "product": "RAINFOREST_RESIN", 
+      "symbol": "RAINFOREST_RESIN"
+    }
+  }, 
+  "market_trades": {}, 
+  "observations": {"conversionObservations": {}, "plainValueObservations": {}}, 
+  "order_depths": 
+  {
+    "KELP": {"buy_orders": {"2025": 22}, "sell_orders": {"2028": -20}}, 
+    "RAINFOREST_RESIN": {"buy_orders": {"9995": 20}, "sell_orders": {"10005": -20}}
+  }, 
+  "own_trades": 
+  {
+    "KELP": 
+      [{"buyer": "", "price": 2025.0, "quantity": 22, "seller": "SUBMISSION", "symbol": "KELP", "timestamp": 100}, 
+      {"buyer": "", "price": 2025.0, "quantity": 2, "seller": "SUBMISSION", "symbol": "KELP", "timestamp": 100}], 
+    "RAINFOREST_RESIN": 
+      [{"buyer": "", "price": 9996.0, "quantity": 2, "seller": "SUBMISSION", "symbol": "RAINFOREST_RESIN", "timestamp": 100}]
+  }, 
+  "position": 
+  {
+    "KELP": -39, 
+    "RAINFOREST_RESIN": -4
+  }, 
+  "timestamp": 200, 
+  "traderData": ""
+}
+  
