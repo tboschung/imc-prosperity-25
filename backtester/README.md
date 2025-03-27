@@ -1,6 +1,6 @@
 Relevant for us:
 
-install with:
+install with (cd to backtester first!):
 pip install -e .
 
 use with
